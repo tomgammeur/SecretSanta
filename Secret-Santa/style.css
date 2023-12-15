@@ -1,0 +1,183 @@
+html {
+  height: 100%;
+  width: 100%;
+  /*cursor: none;*/
+}
+p {
+  color: #170F49;
+  font-size: 18px;
+  font-family: DM Sans;
+  font-weight: 500;
+  line-height: 20px;
+  word-wrap: break-word
+ }
+
+body {
+  background-color: #ffffff;
+}
+
+h1 {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 40px;
+  border-color: #EF7D00;
+
+}
+
+h2 {
+  font-family: Yeseva One;
+  
+  
+}
+h3, #animated-image {
+  font-family: Yeseva One;
+  flex: 1;
+  font-size: 25px;
+}
+
+#animated-image img {
+  width: 100%;
+  height: auto;
+}
+p {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 20px;
+}
+
+.style {
+  color: black;
+}
+
+.style:hover {
+  color: red;
+}
+
+.loader-wrapper {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 9999;
+}
+
+.loader {
+  border: 4px solid #f3f3f3;
+  border-top: 4px solid #ff0000;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  animation: spin 2s linear infinite;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.animated-image {
+  position: relative;
+  animation: bounce 2s ease-in-out;
+}
+
+@keyframes bounce {
+
+  0%,
+  20%,
+  50%,
+  80%,
+  100% {
+    transform: translateY(0);
+  }
+
+  40% {
+    transform: translateY(-30px);
+  }
+
+  60% {
+    transform: translateY(-15px);
+  }
+}
+
+.cadres {
+  display: flex;
+  margin-left: 15px;
+}
+
+.cadre {
+  width: 683px;
+  height: 624px; 
+  background: #FAF8F8; 
+  box-shadow: 0px 5px 16px rgba(8.24, 15.25, 52.06, 0.06); 
+  border-radius: 34px; 
+  border: 1px #EFF0F6 solid;
+  margin-left: 15px;
+
+  
+  
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.custom-cursor {
+  position: fixed;
+  width: 30px; 
+  height: 30px; 
+  background-image: url('christmas-custom-cursor\ \(1\).png'); 
+  background-size: cover;
+  pointer-events: none; 
+  z-index: 9999; 
+
+
+button {
+  width: 248.33px;
+  height: 44.31px;
+  top: 1234.33px;
+  left: 288.29px;
+  border-radius: 46px;
+  background: linear-gradient(0deg, #FFFFFF, #FFFFFF),
+  linear-gradient(0deg, rgba(239, 125, 0, 0.56), rgba(239, 125, 0, 0.56));
+  border: 1px solid #EF7D008F;
+}
+
+input {
+  width: 557.94px;
+  height: 87.18px;
+  top: 1081.2px;
+  left: 121px;
+  border-radius: 46px;
+  background: linear-gradient(0deg, #FFFFFF, #FFFFFF),
+  linear-gradient(0deg, #EFF0F7, #EFF0F7);
+  border: 1px solid #EFF0F6
+}
+
+.nav {
+  width: 100%; 
+  height: 100%; 
+  background: rgba(239, 125, 0, 0.56); 
+  box-shadow: 0px 12px 24px rgba(20.11, 19.66, 42.50, 0.04);
+  border-radius: 18px;
+}
+
+  input {
+    width: 100%; 
+    height: 100%; 
+    background: white; 
+    box-shadow: 0px 2px 6px rgba(18.53, 17.57, 65.87, 0.07); 
+    border-radius: 46px; 
+    border: 1px #EFF0F6 solid;
+    
+  }
+

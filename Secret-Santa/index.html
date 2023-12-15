@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <link rel="icon" type="image/x-icon" href="favicon_animated.ico">
+  <title>Secret Santa</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head> 
+  <header>
+  <nav style="width: 100%; height: 100%; background: rgba(239, 125, 0, 0.56); box-shadow: 0px 12px 24px rgba(20.11, 19.66, 42.50, 0.04); border-radius: 18px">
+  <h1 class="style">  Secret Santa </h1>
+  <h2>‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎By Vitamine T</h2>
+    </nav>
+  </header>
+<body>
+  <div class="custom-cursor"></div>
+  <!-- <script type="text/javascript" src="https://click123.ca/dist/js/snow.js"></script> Floçons de Noël à mettre ou non en fonction de l'avancée -->
+  <div class="loader-wrapper">
+    <p>Chargement... </p>
+    <blockquote>
+    </blockquote>
+    <div class="loader"></div>
+  </div>
+  <div class="container">
+  <h3>Participe au secret santa made in Vitamine T pour des fêtes de fin d’année dans la convivialité et la bonne humeur
+  </h3>
+  <div class="animated-image" id="animated-image">
+    <img style="width: 40%; height: 20%" src="pngwing-com-4.png" alt="Image animée" onclick="restartAnimation()">
+      </div>
+    </div>
+  </div><script src="script.js"></script>
+  <div class="cadres">
+    <div class="cadre">
+      <h2>Rentre les prénoms des membres de ton équipe et laisse la magie faire son effet</h2>
+      <p>Ton prénom</p>
+      <input type="text" id="prenomInput" placeholder="Entrez un prénom">
+      <div style="width: 100%; height: 100%; text-align: center; color: black; font-size: 18px; font-family: DM Sans; font-weight: 700; line-height: 20px; word-wrap: break-word">
+      <button onclick="ajouterPrenom()">Validez</button>
+      </div>
+    </div>
+    <div class="cadre">
+      <center>
+        <h2>Résultats</h2>
+        <div style="width: 100%; height: 100%; border: 1px #C4C4C4 solid">
+        </div>
+      </center>
+      <center>
+        <p id="resultatTirage"></p>
+        <!--<p>offre un cadeau à </p>--><img src="pngegg-8.png" width="50" height="50">
+        <blockquote>
+        </blockquote>
+       <p id="offreCadeau"></p>
+      </center>
+    </div>
+  </div>
+  <div class="cadre">
+    <script src="participe.js"></script>
+    <h2>Liste de ton équipe </h2>
+    <ul id="listePrenoms">
+      <!-- liste des prénoms -->
+    </ul>
+    <p>Nombre de participants : <span id="nombreParticipants">0</span></p>
+      <div style="width: 100%; height: 100%; text-align: center; color: black; font-size: 18px; font-family: DM Sans; font-weight: 700; line-height: 20px; word-wrap: break-word">
+      <button onclick="tirerAuSort()">Envoyer</button>
+    </div>
+  </div>
+  <footer>
+  <img style="width: 100%; height: 100%" src="pngwing 4.png" onclick="restartAnimation" />
+    </footer>
+</body>
+</html>
