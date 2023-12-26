@@ -42,3 +42,4 @@ function restartAnimation() {
     afficherMotAuHasard('mot-au-hasard');
     afficherMotAuHasard('mot-au-hasard2');
   }
+
