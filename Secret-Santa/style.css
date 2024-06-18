@@ -1,7 +1,6 @@
 html {
   height: 100%;
   width: 100%;
-  /*cursor: none;*/
 }
 p {
   color: #170F49;
@@ -20,13 +19,10 @@ h1 {
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   font-size: 40px;
   border-color: #EF7D00;
-
 }
 
 h2 {
   font-family: Yeseva One;
-  
-  
 }
 h3, #animated-image {
   font-family: Yeseva One;
@@ -120,8 +116,6 @@ p {
   border-radius: 34px; 
   border: 1px #EFF0F6 solid;
   margin-left: 15px;
-
-  
   
 }
 
@@ -139,8 +133,7 @@ p {
   background-size: cover;
   pointer-events: none; 
   z-index: 9999; 
-
-
+}
 button {
   width: 248.33px;
   height: 44.31px;
@@ -151,7 +144,6 @@ button {
   linear-gradient(0deg, rgba(239, 125, 0, 0.56), rgba(239, 125, 0, 0.56));
   border: 1px solid #EF7D008F;
 }
-
 input {
   width: 557.94px;
   height: 87.18px;
@@ -162,7 +154,6 @@ input {
   linear-gradient(0deg, #EFF0F7, #EFF0F7);
   border: 1px solid #EFF0F6
 }
-
 .nav {
   width: 100%; 
   height: 100%; 
@@ -170,7 +161,6 @@ input {
   box-shadow: 0px 12px 24px rgba(20.11, 19.66, 42.50, 0.04);
   border-radius: 18px;
 }
-
   input {
     width: 100%; 
     height: 100%; 
@@ -178,6 +168,4 @@ input {
     box-shadow: 0px 2px 6px rgba(18.53, 17.57, 65.87, 0.07); 
     border-radius: 46px; 
     border: 1px #EFF0F6 solid;
-    
   }
-
